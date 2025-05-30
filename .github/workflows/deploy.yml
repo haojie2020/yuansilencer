@@ -1,0 +1,35 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 每次 main 分支变动时触发部署
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 设置 Hugo（extended 版本）
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.147.6'   # 与本地一致
+          extended: true
+
+      # 3. 构建网站
+      - name: Build site
+        run: hugo --minify
+
+      # 4. 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: haojiegroup.com     # 自动生成 CNAME 文件
+          force_orphan: true         # 每次清空旧文件，仅保留当前发布版本
