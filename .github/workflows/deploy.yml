@@ -31,5 +31,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          cname: haojiegroup.com     # 自动生成 CNAME 文件
+          cname: yuansilencer.com     # 自动生成 CNAME 文件
           force_orphan: true         # 每次清空旧文件，仅保留当前发布版本
