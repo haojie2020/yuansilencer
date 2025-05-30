@@ -9,7 +9,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the YuanSilencer
+      - title: 👋 Welcome to the **YuanSilencer**
         content: we focus on the research on Silencer.
         align: center
         background:
@@ -38,7 +38,7 @@ sections:
         link:
           icon: enjoy
           icon_pack: fas
-          text: lastest News
+          text: latest News
           url: ../post/
 
       - title:  Silencer
@@ -58,10 +58,12 @@ sections:
           url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: ''
-      is_fullscreen: true
+      #slide_height: ''
+      slide_height: '70vh'
+      is_fullscreen: false
+      #is_fullscreen: true
       # Automatically transition through slides?
-      loop: ture
+      loop: true
       # Duration of transition between slides (in ms)
       interval: 5000
 

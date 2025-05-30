@@ -120,3 +120,8 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: apa
+
+# Custom CSS for responsive font in slider
+style:
+  custom_css:
+    - css/custom.css
