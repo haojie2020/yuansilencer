@@ -76,7 +76,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/haojie2020/gmc'
+    url: 'https://github.com/yuansilencer/ys'
     content_dir: content
     branch: main
   avatar:
