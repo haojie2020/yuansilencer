@@ -1,6 +1,6 @@
 ---
-title: "Spin Catalysis"
-summary: "Study on spin-polarized catalysts for energy applications."
+title: "xxxx"
+summary: "zzzz"
 image:
   filename: spin-catalysis.jpg
 ---

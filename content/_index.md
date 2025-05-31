@@ -8,9 +8,10 @@ type: landing
 sections:
   - block: slider
     content:
-      slides:
-      - title: 👋 Welcome to the **YuanSilencer**
-        content: we focus on the research on Silencer.
+      slides: 
+      - title: 👋 *Welcome to* **YuanSilencer**
+
+        content:   we focus on the research on Silencer.
         align: center
         background:
           image:
@@ -22,7 +23,7 @@ sections:
         link:
           icon: 
           icon_pack: fas
-          text: Take a look at what we're working on...
+          text: Check our work...
           url: ../tour/
 
       - title: Lunch & Learn ☕️
@@ -137,6 +138,6 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen      
+        padding: ['200px', '0', '200px', '0']
+      css_class: card     
 ---

@@ -7,3 +7,22 @@
 .cta-group {
   justify-content: center;
 }
+
+/* 幻灯片主标题：自适应字体 */
+.hero-title {
+  font-size: clamp(1.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  color: '';
+}
+
+/* 幻灯片副标题：自适应字体 */
+.hero-lead {
+  font-size: clamp(1.0rem, 3.0vw, 2.0rem);
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  color: '';
+}
+

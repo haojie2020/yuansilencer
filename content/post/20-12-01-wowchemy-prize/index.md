@@ -1,5 +1,5 @@
 ---
-title: Richard Hendricks Wins First Place in the Wowchemy Prize
+title: example
 date: 2020-12-01
 tags: ["Prize"]  # 可用于关键词过滤
 ---

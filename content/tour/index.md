@@ -21,7 +21,7 @@ sections:
     content:
       title: Research Topics
       subtitle: Our main research directions
-      text: Our research covers multiple frontier topics in catalysis, energy, and advanced materials.
+      text: yyyy.
       count: 6
       filters:
         folders:
