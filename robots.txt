@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://yuansilencer.com/sitemap.xml
