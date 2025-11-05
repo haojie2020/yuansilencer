@@ -11,7 +11,7 @@ sections:
       text: |-
         please contact us.
       email: yuan@yuansilencer.com
-      phone: 888 888 88 88
+      #phone: 
       address:
         street: K
         city: Halle (Saale)
@@ -20,12 +20,12 @@ sections:
         country: Germany
         country_code: DE
       coordinates:
-        latitude: '51.495208143602206'
-        longitude: '11.93487928391829'
-      directions: Enter the bulding and go to Office E0.70 at ghe ground floow.
+        latitude: '51.48744702075411'
+        longitude: '11.977875450143616'
+      #directions: Enter the bulding and go to Office E0.70 at ghe ground floow.
       office_hours:
         - 'Monday-Friday: 9:00 to 18:00'
-      appointment_url: 'https://calendar.notion.so/meet/haojie-c0pl1gce/bm1d14o5u'
+      #appointment_url: 'https://calendar.notion.so/meet/haojie-c0pl1gce/bm1d14o5u'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas

@@ -17,19 +17,19 @@ sections:
         
   #      The **Green Molecules Conversion Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
   
-  - block: collection
-    content:
-      title: Research Topics
-      subtitle: Our main research directions
-      text: yyyy.
-      count: 6
-      filters:
-        folders:
-          - research    # 自动抓取 content/research/ 下所有 md 文件
-      order: asc
-    design:
-      view: card
-      columns: '1'
+  #- block: collection
+  #  content:
+  #    title: Research Topics
+  #    subtitle: Our main research directions
+  #    text: yyyy.
+  #    count: 6
+  #    filters:
+  #      folders:
+  #        - research    # 自动抓取 content/research/ 下所有 md 文件
+  #    order: asc
+  #  design:
+  #    view: card
+  #    columns: '1'
   
   #- block: markdown
   #  content:
@@ -71,19 +71,19 @@ sections:
       view: card
       columns: '1'
 
-  - block: collection
-    content:
-      title: " "
-      subtitle: "Completed projects"
-      count: 50
-      filters:
-        folders:
-          - project
-        status: past
-      order: desc
-    design:
-      view: compact
-      columns: 1
+ # - block: collection
+ #   content:
+ #     title: " "
+ #     subtitle: "Completed projects"
+ #     count: 50
+ #     filters:
+ #       folders:
+ #         - project
+ #       status: past
+ #     order: desc
+ #   design:
+  #    view: compact
+ #     columns: 1
 
   - block: markdown
     content:

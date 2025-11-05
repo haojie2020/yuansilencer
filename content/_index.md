@@ -11,7 +11,7 @@ sections:
       slides: 
       - title: 👋 *Welcome to* **YuanSilencer**
 
-        content:   we focus on the research on Silencer.
+        content:   We focus on the research on Silencer. 
         align: center
         background:
           image:
@@ -26,23 +26,23 @@ sections:
           text: Check our work...
           url: ../tour/
 
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
-        background:
-          image:
-            filename: contact.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-        link:
-          icon: enjoy
-          icon_pack: fas
-          text: latest News
-          url: ../post/
+      #- title: Lunch & Learn ☕️
+      #  content: 'Share your knowledge with the group and explore exciting new topics together!'
+      #  align: left
+      #  background:
+      #    image:
+      #      filename: contact.jpg
+      #      filters:
+      #        brightness: 0.7
+      #    position: center
+      #    color: '#555'
+      #  link:
+      #    icon: enjoy
+      #    icon_pack: fas
+      #    text: latest News
+      #    url: ../post/
 
-      - title:  Silencer
+      - title:  Decode silencers, command expression.
         content: ''
         align: right
         background:
@@ -77,7 +77,7 @@ sections:
       text: |
         <br>
         
-        The **YuanSilencer** is a...
+        YuanSilencer decodes the genome’s silencer switches-DNA elements that dial genes down. We reveal how they shape gene and protein expression and turn silencing/unsilencing into a controllable tool, enabling safer, more precise therapies for cancer and other diseases.
   
   - block: collection
     content:
